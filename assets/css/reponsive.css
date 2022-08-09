@@ -1,0 +1,87 @@
+@media (min-width:64em) {
+    #header .mobile-menu-btn{
+        display: none;
+    }
+}
+/* Tablet */
+@media (min-width:46.25em) and (max-width:63.9375em){
+    .btn{
+        padding: 15px 16px;
+    }
+    #header .mobile-menu-btn{
+        display: none;
+    }
+    .contact-form .contact-info{
+        line-height: 1.8;
+
+    }
+   
+
+
+
+    .contact-form .form-control{
+        padding: 15px;
+    }
+    #fooder .social-list a{   
+       
+        margin: 0 8px;
+        font-size: 30px;
+    }
+    #fooder .copyright a{
+        padding:12px 0;
+        display: inline-block;
+    }
+   
+}
+/* Mobile */
+
+@media (max-width:46.1875em) {
+    .s-full-width,
+    .s-col-full{
+        width: 100%;
+    }
+    .s-mt-8{
+        margin-top: 8px;
+    }
+    #header{
+        overflow: hidden;
+    }
+   
+    #nav{
+        display: block;
+    }
+    #nav > li{
+        display: block;
+    }
+    #nav li a{
+        padding: 1px 24px;
+    }
+
+    #nav > li:first-child{
+        display: inline-block;
+    }
+    #nav .subnav{
+        position: initial;
+        background-color: #333;
+    }
+    #nav .subnav a{
+        color: #fff;
+        padding: 5px 41px;
+    }
+    #header .menu-icon{
+        display: block;
+    }
+    #header .search-btn{
+        display: none;
+    }
+    #slider .text-content {
+        display: none;
+    }
+    .contact-form{
+        margin-top: 32px;
+
+    }
+    #fooder .social-list a{
+        font-size: 25px;
+    }
+}
